@@ -1,0 +1,39 @@
+{
+  "name": "strapi-hook-twitter",
+  "version": "3.0.5",
+  "description": "Twitter hook for strapi",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "hook",
+    "search",
+    "strapi",
+    "twitter"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "lib",
+  "strapi": {
+    "isHook": true
+  },
+  "author": {
+    "name": "Ilma Arifiany",
+    "email": "iarifiany@gmail.com",
+    "url": "https://github.com/flavea"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flavea/strapi-hook-twitter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flavea/strapi-hook-twitter/issues"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "twitter-lite": "^0.14.0"
+  }
+}
